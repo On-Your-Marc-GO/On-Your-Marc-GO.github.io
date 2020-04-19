@@ -15,9 +15,9 @@
       src="https://kit.fontawesome.com/74f99eef68.js"
       crossorigin="anonymous"
     ></script>
-    m0-opk
     <title>Contact Me</title>
   </head>
+
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -40,7 +40,7 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
-    </button>
+      </button>
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
@@ -55,33 +55,121 @@
       </div>
     </nav>
 
-
-
-  <!-- Form Controls Start  -->
+    <!-- First Container: Holds Header and Form Content -->
     <div class="container">
-          <!-- First Row: Contact Header -->
-          <div clase="row row-style justify-content-center">
-            <header>
-              <h1>Contact</h1>
-            </header>
-          </div>
+      <!-- First Row: Contact Header -->
+      <div class="row row-style justify-content-center">
+        <header>
+          <h1>Contact</h1>
+        </header>
+      </div>
+
+      <!-- Form Controls Start -->
+      <!-- Second Row: Form Row 1: First-Last Name -->
+      <div class="row row-style">
+        <div class="col justify-content-center">
+          <form>
+            <div class="row">
+              <div class="col-6">
+                <label for="FirstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="firstName"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="col-6">
+                <label for="LastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="lastName"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <!-- Third Row: Form Row 2: Email Address -->
+            <div class="row">
+              <div class="col-12">
+                <label for="emailInput">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Email"
+                />
+              </div>
+            </div>
+            <!-- Fourth Row: Form Row 3: Message Box -->
+            <div class="row">
+              <div class="col-12">
+                <label for="messageEntry">Message</label>
+                <textarea class="form-control" rows="8"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
     </div>
 
-    <form>
-      <!-- Form Row 1: First Last Name -->
-      <div class="form-row">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="First name">
+    <!-- Second Container: Holds Personal Contact Info -->
+    <div class="container">
+      <div class="row row-style justify-content-center">
+        <div class="col-4 justify-content-center">
+          <a
+            href="https://www.google.com/maps/place/Houston,+TX/@29.8171037,-95.5417172,11z/data=!3m1!4b1!4m5!3m4!1s0x8640b8b4488d8501:0xca0d02def365053b!8m2!3d29.7604267!4d-95.3698028"
+          ></a>
+          <p>
+            Houston, TX 77054
+          </p>
         </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Last name">
+        <div class="col-4 justify-content-center">
+          <a href="tel: (956)244-3937"></a>
+          <p>(956)244-3937</p>
+        </div>
+        <div class="col-4 justify-content-center">
+          <a href="mailto:marcos.a.arguijo@gmail.com"></a>
+          <p>marcos.a.arguijo@gmail.com</p>
         </div>
       </div>
-      <div class="form-row">
+    </div>
+
+    <!-- Footer -->
+    <footer class="navbar bg-dark fixed-bottom">
+      <div class="container">
+        <div class="row row-style justify-content-">
+          <div class="col-md text-center">
+            <p class="d-none d-sm-block">
+              &copy; Copyright 2020 Marc Arguijo
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md text-center justify">
+            <a
+              href="https://www.linkedin.com/in/marcarguijo/"
+              class="scl-btn scl-crcl shadow fab fa-linkedin-in"
+            ></a>
+            <a
+              href="https://github.com/On-Your-Marc-GO"
+              class="scl-btn scl-crcl shadow fab fa-github"
+            ></a>
+            <a
+              href="https://www.facebook.com/marc.arguijo"
+              class="scl-btn scl-crcl shadow fab fa-facebook-f"
+            ></a>
+            <a
+              href="https://twitter.com/On_Your_Marc_GO"
+              class="scl-btn scl-crcl shadow fab fa-twitter"
+            ></a>
+            <a
+              href="=https://www.instagram.com/on_your_marc_go/"
+              class="scl-btn scl-crcl shadow fab fa-instagram"
+            ></a>
+          </div>
+        </div>
       </div>
-    </form>
-
-
     </footer>
 
     <!-- Required Bootstrap JS Components -->
