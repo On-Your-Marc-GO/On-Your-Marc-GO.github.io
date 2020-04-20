@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+    <link rel="icon" href="./assets/Images/clipart-running-shoe.png" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Sintony&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style1.css" type="text/css" />
     <!-- Fontawesome Kit Code -->
@@ -21,7 +26,7 @@
 
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand">
         <img
           src="./assets/Images/clipart-running-shoe.png"
@@ -102,10 +107,14 @@
               </div>
             </div>
             <!-- Fourth Row: Form Row 3: Message Box -->
-            <div class="row">
+            <div class="row" id="footer-pad">
               <div class="col-12">
                 <label for="messageEntry">Message</label>
-                <textarea class="form-control" rows="8"></textarea>
+                <textarea
+                  class="form-control"
+                  rows="8"
+                  placeholder="Compose your message here. :)"
+                ></textarea>
               </div>
             </div>
             <button class="btn btn-primary" type="submit">Send</button>

@@ -1,8 +1,42 @@
 body {
+  font-family: "Sintony", sans-serif !important;
   background-image: url("../Images/Gray-Geo-Background.jpg");
   background-size: cover;
 }
 
+h1,
+footer,
+.navbar {
+  font-family: "Lexend Deca", sans-serif;
+}
+.navbar {
+  color: white !important;
+  background-color: grey;
+}
+
+.about-me-heading {
+  font-size: 24px;
+}
+.responsive-img {
+  width: auto;
+  height: auto;
+}
+
+/* .row {
+  border: red solid 10px;
+}
+
+.col {
+  border: green solid 10px;
+} */
+
+.row-style {
+  padding-bottom: 20px;
+}
+
+#footer-pad {
+  padding-bottom: 150px;
+}
 /* blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;

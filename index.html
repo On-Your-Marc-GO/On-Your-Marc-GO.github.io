@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+    <link rel="icon" href="./assets/Images/clipart-running-shoe.png" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Sintony&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style1.css" type="text/css" />
     <!-- Fontawesome Kit Code -->
@@ -20,7 +25,7 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand">
         <img
           src="./assets/Images/clipart-running-shoe.png"
@@ -56,21 +61,22 @@
     <!-- Main Body of Page -->
     <div class="container-fluid">
       <!-- First Row; Background Splash -->
-      <!-- <div class="row row-hero"> -->
-      <!-- Background Image -->
-      <!-- <div class="hero-image">
+      <div class="row row-hero">
+        <!-- Background Image -->
+        <div class="hero-image">
           <img
             src="./assets/Images/hero-image-runner-climb.jpg"
             class="img-fluid"
+            width="100%"
             alt="silouette of person running up dune cliff"
           />
         </div>
-      </div> -->
+      </div>
       <!-- Second Row -->
       <div class="row row-style justify-content-center">
-        <div class="col-md-8 col-sm-8 justify-content-center">
+        <div class="col col-md-8 col-sm-8 justify-content-center">
           <section class="mt-4">
-            <h1>About Me</h1>
+            <h1 class="about-me-heading">About Me</h1>
             <p>
               Hello there! My name is Marc Arguijo. Thank you for visiting this
               page. Currently I am enrolled in the Houston Coding Bootcamp
@@ -78,7 +84,6 @@
               the first step in what I hope to be a career change as a Web
               Developer, something I've always held interest in.
             </p>
-            <br />
             <p>
               My career thus far has seen me working as an IT Professional and
               Customer Support Specialist across various organizations for ~6
@@ -89,7 +94,6 @@
               had a tangential interest in the field and all that can be done in
               it.
             </p>
-            <br />
             <p>
               The decision to take this change in my career is a big one for me.
               Much like training for and lining up at the start line of a
@@ -98,40 +102,37 @@
             </p>
           </section>
         </div>
-        <div class="col-md-4 col-sm-4 justify-content-center">
+        <div class="col col-md-4 col-sm-4 justify-content-center">
           <aside class="mt-4">
             <img
               src="./assets/Images/Marathon-Finish-Picture.jpg"
               class="img-fluid"
               alt="Image of man crossing finish line of marathon race"
+              class="responsive-img"
             />
           </aside>
         </div>
       </div>
     </div>
-
     <!-- Third Row -->
-    <div class="container-fluid">
-      <div class="row row-style">
-        <div class="col text-center">
-          <!-- Quote -->
-          <blockquote class="blockquote blockquote-reverse">
-            <p class="mb-0">
-              “If you want to find the real competition, just look in the
-              mirror. After awhile you’ll see your rivals scrambling for second
-              place.”
-            </p>
-            <footer class="blockquote-footer">
-              Criss Jami, <cite title="Source Title">American Poet</cite>
-            </footer>
-          </blockquote>
-        </div>
+    <div class="row row-style">
+      <div class="col text-center">
+        <!-- Quote -->
+        <blockquote class="blockquote blockquote-reverse" id="footer-pad">
+          <p class="mb-0 mt-5">
+            “If you want to find the real competition, just look in the mirror.
+            After awhile you’ll see your rivals scrambling for second place.”
+          </p>
+          <footer class="blockquote-footer">
+            Criss Jami, <cite title="Source Title">American Poet</cite>
+          </footer>
+        </blockquote>
       </div>
     </div>
 
     <!-- Footer -->
     <footer class="navbar bg-dark fixed-bottom">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md text-center">
             <p class="d-none d-sm-block">
