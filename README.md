@@ -1,4 +1,4 @@
-# Bootcamp: Homework 2 - Personal Portfolio Page
+# Personal Portfolio Page
 
 # Live URL
 
